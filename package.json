@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon backend/src/app.js -e js,hbs",
-    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/reguster/src/app.js -e js,hbs",
+    "start": "node backend/reguster/src/index.js",
     "build": "npm install && npm install --prefix Frontend/Online-Educational-Website-main && npm run build --prefix Frontend/Online-Educational-Website-main"
   },
   "keywords": [],
